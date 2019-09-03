@@ -1,0 +1,233 @@
+#menuleft {
+    width: 170px;
+    height: 792px;
+    background-color: rgba(255, 159, 161, 0.95);
+    border: 2px solid #423f4a;
+    border-radius: 20px;
+    right: 15px;
+    margin-top: 75px;
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 1;
+}
+
+.kkk {
+    width: 1px;
+    height: 500px;
+}
+
+.boxx {
+    width: 100%;
+    height: 100px;
+    border-bottom: 2px solid #282828;
+    color: #1a2820;
+    text-align: center;
+    padding-top: 30px;
+    font-size: x-large;
+}
+
+.box:hover {
+    background-color: #c48565;
+}
+
+.boxx:last-child {
+    border-bottom: none;
+}
+
+#menuright {
+    margin-top: 50px;
+}
+
+.boxx2 {
+    width: 250px;
+    height: 325px;
+    display: block;
+    margin: 20px 30px;
+    background-color: #0c061c;
+    float: left;
+    color: #b5b5b5;
+    border-radius: 20%;
+}
+
+button {
+    padding: 6px;
+    border-radius: 30%;
+    background-color: #4d4d4d;
+    margin-left: 88px;
+    margin-top: -29px;
+}
+
+#imagebottom {
+    background-color: #ff3556;
+    width: 200px;
+    height: 200px;
+    float: right;
+    position: absolute;
+    right: 20px;
+    margin-top: 244px;
+    border-radius: 10px;
+}
+
+.flooo {
+    width: 900px;
+    height: 250px;
+    background-color: #d27768;
+    margin: 20px 30px;
+}
+
+.btn {
+    margin-top: 44px;
+    padding: 15px 25px;
+}
+
+.btn1 {
+    margin-top: 44px;
+    margin-left: 0px;
+}
+
+* {
+    box-sizing: border-box
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+.div1 {
+    width: 98%;
+    height: 300px;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 30px;
+}
+
+.div2 {
+    width: 90%;
+    height: 150px;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.div3 {
+    width: 95%;
+    height: 260px;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.moveToTop2 {
+    background-image: url("../img/ax1.png");
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 1px 2px 6px 0 rgba(0, 0, 0, 0.56);
+    cursor: pointer;
+    transition: 0.5s all linear;
+}
+#mainimg{
+    max-width: 100%;
+    display: block;
+}
